@@ -1,0 +1,53 @@
+/* altera o estilo do titulo */
+h1{
+  color: brown;
+}
+/*  Altera o estilo dos títulos h2 */
+h2, .special {
+  color: darkmagenta;
+}
+/*muda o estilo do h1 quando passa o mouse em cima do h1 */
+h1:hover{
+  color: darkmagenta;
+}
+/* muda o estilo do h2 quando passa o mouse em cima do h1 */
+h2:hover {
+  color: brown;
+}
+/* altera o estilo de um link específico  */
+a[href="https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics"] {
+  color: rgb(238, 0, 178);
+}
+
+a[ href="https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065"]{
+  color:rgb(238, 0, 178); 
+}
+
+a[ href="https://www.freecodecamp.org/portuguese/news/elementos-semanticos-do-html5-explicados/"]{
+  color:rgb(238, 0, 178); 
+}
+
+a[ href="https://www.freecodecamp.org/portuguese/news/elementos-semanticos-do-html5-explicados/"]{
+  color:rgb(238, 0, 178); 
+}
+
+a[ href="https://www.estadao.com.br/paladar/radar/melhores-sobremesas-mundo-receitas/?srsltid=AfmBOopBXPWzLbkzWg7ENFL1cPw_p9y5MagpypTeqhzVeWBxU06LVAuT"]{
+  color: rgb(238, 0, 178); 
+}
+
+a[ href="https://www.receiteria.com.br/receitas-de-sobremesas/"]{
+  color:rgb(238, 0, 178)
+}
+
+/* todo p que é filho direto de um <article> */
+article > p {
+  color: rgb(106, 9, 216);
+}
+/* todo  <p> que vem logo depois de uma <img> */
+img + p {
+  color: rgb(169, 93, 231);
+}
+/* aplica um estilo so no primeiro paragrafo */
+ul:first-child {
+  color: rgb(240, 134, 190);
+}
